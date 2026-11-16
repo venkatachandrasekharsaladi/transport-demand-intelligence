@@ -1,0 +1,245 @@
+{
+  "generated_at": "2026-11-16T18:24:27.571686+00:00",
+  "dataset": {
+    "rows": 604800,
+    "routes": 450,
+    "timestamps": 1344,
+    "date_range": {
+      "start": "2026-07-14T00:00:00",
+      "end": "2026-09-07T23:00:00"
+    }
+  },
+  "source": "MTA ridership CSV and persisted notebook-derived model",
+  "forecast_horizon_hours": 24,
+  "kpis": {
+    "total_forecast_ridership": 1048052.6947936735,
+    "routes_analysed": 354,
+    "flagged_demand_periods": 489
+  },
+  "hourly_demand": [
+    {
+      "transit_timestamp": "2026-09-08T00:00:00",
+      "predicted_ridership": 5913.921358272001
+    },
+    {
+      "transit_timestamp": "2026-09-08T01:00:00",
+      "predicted_ridership": 2320.9229603855233
+    },
+    {
+      "transit_timestamp": "2026-09-08T02:00:00",
+      "predicted_ridership": 1245.9047431516813
+    },
+    {
+      "transit_timestamp": "2026-09-08T03:00:00",
+      "predicted_ridership": 1684.6577903356178
+    },
+    {
+      "transit_timestamp": "2026-09-08T04:00:00",
+      "predicted_ridership": 5856.493087371735
+    },
+    {
+      "transit_timestamp": "2026-09-08T05:00:00",
+      "predicted_ridership": 22948.959470758848
+    },
+    {
+      "transit_timestamp": "2026-09-08T06:00:00",
+      "predicted_ridership": 56542.550148865805
+    },
+    {
+      "transit_timestamp": "2026-09-08T07:00:00",
+      "predicted_ridership": 91346.6036547079
+    },
+    {
+      "transit_timestamp": "2026-09-08T08:00:00",
+      "predicted_ridership": 93761.83313559904
+    },
+    {
+      "transit_timestamp": "2026-09-08T09:00:00",
+      "predicted_ridership": 63736.81093896321
+    },
+    {
+      "transit_timestamp": "2026-09-08T10:00:00",
+      "predicted_ridership": 51194.87985804771
+    },
+    {
+      "transit_timestamp": "2026-09-08T11:00:00",
+      "predicted_ridership": 48831.89437171241
+    },
+    {
+      "transit_timestamp": "2026-09-08T12:00:00",
+      "predicted_ridership": 52037.36319619745
+    },
+    {
+      "transit_timestamp": "2026-09-08T13:00:00",
+      "predicted_ridership": 57560.09794517905
+    },
+    {
+      "transit_timestamp": "2026-09-08T14:00:00",
+      "predicted_ridership": 61927.40644907255
+    },
+    {
+      "transit_timestamp": "2026-09-08T15:00:00",
+      "predicted_ridership": 70582.57304323024
+    },
+    {
+      "transit_timestamp": "2026-09-08T16:00:00",
+      "predicted_ridership": 82303.44512270593
+    },
+    {
+      "transit_timestamp": "2026-09-08T17:00:00",
+      "predicted_ridership": 89494.96287019906
+    },
+    {
+      "transit_timestamp": "2026-09-08T18:00:00",
+      "predicted_ridership": 69315.44775911681
+    },
+    {
+      "transit_timestamp": "2026-09-08T19:00:00",
+      "predicted_ridership": 43585.81213844313
+    },
+    {
+      "transit_timestamp": "2026-09-08T20:00:00",
+      "predicted_ridership": 30423.457797216885
+    },
+    {
+      "transit_timestamp": "2026-09-08T21:00:00",
+      "predicted_ridership": 20985.98671774612
+    },
+    {
+      "transit_timestamp": "2026-09-08T22:00:00",
+      "predicted_ridership": 14643.37401249485
+    },
+    {
+      "transit_timestamp": "2026-09-08T23:00:00",
+      "predicted_ridership": 9807.336223900003
+    }
+  ],
+  "top_routes": [
+    {
+      "bus_route": "M15+",
+      "forecast_total": 21204.949991492187,
+      "forecast_average": 883.5395829788412,
+      "forecast_peak": 2026.8184692023667,
+      "demand_rank": 1,
+      "total_predicted_ridership": 21204.949991492187,
+      "average_hourly_demand": 883.5395829788412,
+      "peak_hourly_demand": 2026.8184692023667
+    },
+    {
+      "bus_route": "Q25",
+      "forecast_total": 15970.891065473355,
+      "forecast_average": 665.4537943947231,
+      "forecast_peak": 1610.64725784428,
+      "demand_rank": 2,
+      "total_predicted_ridership": 15970.891065473355,
+      "average_hourly_demand": 665.4537943947231,
+      "peak_hourly_demand": 1610.64725784428
+    },
+    {
+      "bus_route": "Q44+",
+      "forecast_total": 14969.862683918447,
+      "forecast_average": 623.744278496602,
+      "forecast_peak": 1312.0607487426785,
+      "demand_rank": 3,
+      "total_predicted_ridership": 14969.862683918447,
+      "average_hourly_demand": 623.744278496602,
+      "peak_hourly_demand": 1312.0607487426785
+    },
+    {
+      "bus_route": "B6",
+      "forecast_total": 13780.14065658942,
+      "forecast_average": 574.1725273578925,
+      "forecast_peak": 1229.9499177905423,
+      "demand_rank": 4,
+      "total_predicted_ridership": 13780.14065658942,
+      "average_hourly_demand": 574.1725273578925,
+      "peak_hourly_demand": 1229.9499177905423
+    },
+    {
+      "bus_route": "BX12+",
+      "forecast_total": 11743.707969553694,
+      "forecast_average": 489.3211653980706,
+      "forecast_peak": 1228.037631535131,
+      "demand_rank": 5,
+      "total_predicted_ridership": 11743.707969553694,
+      "average_hourly_demand": 489.3211653980706,
+      "peak_hourly_demand": 1228.037631535131
+    },
+    {
+      "bus_route": "Q58",
+      "forecast_total": 11548.963167073854,
+      "forecast_average": 481.20679862807725,
+      "forecast_peak": 1102.5702762515261,
+      "demand_rank": 6,
+      "total_predicted_ridership": 11548.963167073854,
+      "average_hourly_demand": 481.20679862807725,
+      "peak_hourly_demand": 1102.5702762515261
+    },
+    {
+      "bus_route": "M86+",
+      "forecast_total": 11294.247953821954,
+      "forecast_average": 470.59366474258144,
+      "forecast_peak": 1220.5731732156733,
+      "demand_rank": 7,
+      "total_predicted_ridership": 11294.247953821954,
+      "average_hourly_demand": 470.59366474258144,
+      "peak_hourly_demand": 1220.5731732156733
+    },
+    {
+      "bus_route": "M101",
+      "forecast_total": 10582.719430287905,
+      "forecast_average": 440.9466429286627,
+      "forecast_peak": 1008.2555377955377,
+      "demand_rank": 8,
+      "total_predicted_ridership": 10582.719430287905,
+      "average_hourly_demand": 440.9466429286627,
+      "peak_hourly_demand": 1008.2555377955377
+    },
+    {
+      "bus_route": "Q27",
+      "forecast_total": 10525.105482231775,
+      "forecast_average": 438.5460617596573,
+      "forecast_peak": 798.6351253607502,
+      "demand_rank": 9,
+      "total_predicted_ridership": 10525.105482231775,
+      "average_hourly_demand": 438.5460617596573,
+      "peak_hourly_demand": 798.6351253607502
+    },
+    {
+      "bus_route": "M15",
+      "forecast_total": 10340.54652317959,
+      "forecast_average": 430.8561051324829,
+      "forecast_peak": 735.5931667291043,
+      "demand_rank": 10,
+      "total_predicted_ridership": 10340.54652317959,
+      "average_hourly_demand": 430.8561051324829,
+      "peak_hourly_demand": 735.5931667291043
+    }
+  ],
+  "peak_comparison": [
+    {
+      "period": "Morning peak",
+      "total_predicted_ridership": 248845.24772927014,
+      "average_hourly_ridership": 234.31755906710936,
+      "records": 1062
+    },
+    {
+      "period": "Evening peak",
+      "total_predicted_ridership": 284699.66789046495,
+      "average_hourly_ridership": 201.0590874932662,
+      "records": 1416
+    },
+    {
+      "period": "Off-peak",
+      "total_predicted_ridership": 514507.77917393844,
+      "average_hourly_ridership": 85.49481209271161,
+      "records": 6018
+    }
+  ],
+  "alerts": {
+    "high": 199,
+    "elevated": 290,
+    "basis": "Historical-relative thresholds; not verified overcrowding."
+  },
+  "operational_notice": "Fleet values are simulation assumptions requiring human review."
+}

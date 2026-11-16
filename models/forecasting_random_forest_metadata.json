@@ -1,0 +1,37 @@
+{
+  "model_type": "RandomForestRegressor",
+  "training_implementation": "Notebook cell 26 one-hot pipeline",
+  "training_rows": 100000,
+  "feature_columns": [
+    "hour",
+    "day_of_week",
+    "is_weekend",
+    "day_of_month",
+    "lag_24h",
+    "lag_168h"
+  ],
+  "categorical_features": [
+    "bus_route"
+  ],
+  "target_column": "ridership",
+  "train_end": "2026-08-24 23:00:00",
+  "validation_end": "2026-08-31 23:00:00",
+  "test_start": "2026-09-01 00:00:00",
+  "metrics": {
+    "validation": {
+      "mae": 15.753,
+      "rmse": 29.495,
+      "wape_percent": 13.135,
+      "bias_percent": 0.104
+    },
+    "test": {
+      "mae": 23.17,
+      "rmse": 53.321,
+      "wape_percent": 20.538,
+      "bias_percent": 7.977
+    },
+    "test_observations": 59472,
+    "test_actual_total": 6709296,
+    "test_predicted_total": 7244513
+  }
+}
