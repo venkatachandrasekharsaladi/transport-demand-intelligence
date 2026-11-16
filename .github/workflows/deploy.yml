@@ -38,7 +38,7 @@ jobs:
       - name: Build frontend
         working-directory: frontend
         env:
-          VITE_BASE_PATH: /${{ github.event.repository.name }}/
+          VITE_BASE_PATH: /transport-demand-intelligence/
         run: npm run build
 
       - name: Upload Pages artifact
